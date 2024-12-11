@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 20px;
+}
+
+/* System Configuration */
+.system-configuration {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.system-configuration label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.system-configuration input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #333;
+  color: white;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.start-button {
+  background: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.stop-button {
+  background: red;
+  color: white;
+}
+
+/* Notification */
+.notification {
+  background: #ffcc00;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Ticket Status Section Styling */
+.Ticket_name {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1600px;
+  margin-top: 20px;
+}
+
+.Ticket_name h2 {
+  color: #ffcc00;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Ticket_name-content {
+  max-height: 200px;
+  overflow-y: auto;
+  background: #222;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+.Ticket_name-content div {
+  padding: 5px 0;
+  border-bottom: 1px solid #444;
+}
+
+.Ticket_name-content div:last-child {
+  border-bottom: none;
+}
